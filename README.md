@@ -3,6 +3,14 @@
 ## Introduction
 This yeoman generator will create a simple typescript project with support for running tests with jest.
 
+## Installation
+
+Install the generator (and if not already present `yo` itself) globally by executing:
+
+```
+npm install yo generator-create-kata -g
+```
+
 ## Usage
 
 1. Create a folder for your kata project
