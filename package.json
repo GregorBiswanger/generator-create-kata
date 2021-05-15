@@ -1,0 +1,28 @@
+{
+  "name": "generator-create-kata",
+  "version": "1.0.0",
+  "description": "Yeoman Generator for creating a Jest test project with TypeScript support.",
+  "keywords": [
+    "yeoman-generator", "coding dojo", "TDD", "BDD", "kata"
+  ],
+  "scripts": {
+    "build": "tsc -p ."
+  },
+  "files": [
+    "generators"
+  ],
+  "author": "Gregor Biswanger",
+  "contributors": [],
+  "license": "MIT",
+  "dependencies": {
+    "chalk": "^4.1.1",
+    "lodash": "^4.17.21",
+    "yeoman-generator": "^5.2.0",
+    "yosay": "^2.0.2"
+  },
+  "devDependencies": {
+    "@types/lodash": "^4.14.169",
+    "@types/yeoman-generator": "^4.11.4",
+    "typescript": "^4.2.4"
+  }
+}
